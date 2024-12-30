@@ -1,0 +1,29 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.9",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
+  },
+  "jsr": {
+    "@std/assert@1.0.9": {
+      "integrity": "a9f0c611a869cc791b26f523eec54c7e187aab7932c2c8e8bea0622d13680dcd",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "remote": {
+    "https://esm.sh/rxjs@7.8.1": "3c806a39826e1230bf3ec2e94f252217fe2d0fac06382e1060cb7cd42349a2a8",
+    "https://esm.sh/v135/rxjs@7.8.1/denonext/rxjs.mjs": "5b7ef4f0e05f81c90bb2fdf37ac4c2c2f30680a8fe90aa6b716750dd901529ca",
+    "https://esm.sh/v135/tslib@2.6.2/denonext/tslib.mjs": "29782bcd3139f77ec063dc5a9385c0fff4a8d0a23b6765c73d9edeb169a04bf1",
+    "https://esm.sh/v135/tslib@2.8.1/denonext/tslib.mjs": "546c1c4c1001ad9a202c60023c1b373a39c228a9d210b50451a8ba0495c38304"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
